@@ -18,10 +18,11 @@
   },
   "homepage": "https://github.com/Alvinwangwei/myblog#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "koa": "^2.13.0",
+    "koa-bodyparser": "^4.3.0",
+    "koa-router": "^9.1.0",
+    "koa2-cors": "^2.0.6",
+    "mongoose": "^5.9.21"
   },
-  "devDependencies": {
-    "vue": "^2.6.11",
-    "webpack": "^4.43.0"
-  }
+  "devDependencies": {}
 }
