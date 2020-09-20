@@ -20,6 +20,24 @@ export default (appInfo: EggAppInfo) => {
     allowMethods: 'GET,HEAD,PUT,POST,DELETE,PATCH'
   }
 
+  config.mongoose = {
+    client: {
+      url: 'mongodb://127.0.0.1/blog',
+      options: {
+        useUnifiedTopology: true,
+        useCreateIndex: true
+      }
+    }
+  }
+
+  config.security = {
+    csrf: {
+      enable: false,
+      ignoreJSON: true
+    },
+    domainWhiteList: ['*']
+  }
+
   // the return config will combines to EggAppConfig
   return {
     ...config,
