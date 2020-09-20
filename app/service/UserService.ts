@@ -1,8 +1,9 @@
-const BaseService = require('../core/BaseService');
+// const BaseService = require('../core/BaseService');
+const myService: any = require('egg').Service
 
 const uuidv1 = require('uuid/v1');
 
-class UserService extends BaseService {
+class UserService extends myService {
   get document () {
     return this.ctx.model.User
   }
