@@ -22,7 +22,7 @@ export default (appInfo: EggAppInfo) => {
 
   config.mongoose = {
     client: {
-      url: 'mongodb://127.0.0.1/blog',
+      url: 'mongodb://47.103.65.195/blog',
       options: {
         useUnifiedTopology: true,
         useCreateIndex: true
