@@ -33,7 +33,6 @@ class HomeService extends Service {
     const result = await this.app.mysql.update('Person', row, options)
     console.log(result) 
     return result
-    
   }
 
   async delete() {
