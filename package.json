@@ -9,7 +9,8 @@
   "dependencies": {
     "egg": "^2.15.1",
     "egg-mysql": "^3.0.0",
-    "egg-scripts": "^2.14.0"
+    "egg-scripts": "^2.14.0",
+    "moment": "^2.29.2"
   },
   "devDependencies": {
     "autod": "^3.0.1",
